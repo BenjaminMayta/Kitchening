@@ -2,6 +2,7 @@
     box-sizing: border-box;/* Usa el total de la pantalla ,te suma todos los bordes y tiene los pixeles que permiten */
     margin: 0;
     padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 li{
@@ -15,4 +16,6 @@ a{
 
 .home{
     background-image: url('../img/bg-body.png');
+    width: 94%;/* Para que el body ocupe el 94% de la pantalla */
+    margin: 0 auto;/* Para centrar el body de izquierda a derecha */
 }

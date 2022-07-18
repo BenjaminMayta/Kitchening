@@ -1,0 +1,45 @@
+.home main .banner{
+   display: none;/* Ya no me va a aparecer */
+}
+
+.home main section article{
+    margin: 20px 0;
+    position: relative;/* delimita mi caja para que el absoluto no se valla al body */
+}
+
+.home main section .producto{
+    width: 100%;/* Para que la imagen ocupe el 100% de la pantalla */
+}
+
+.home main section .etiqueta{
+    right: 15px;/* Con esto reduzco el tamaño de la foto de free new y off */
+    position: absolute;/* Para poder superponerme en otra imagen o en todo */
+    top: 0px; /* La posicion desde arriba a abajo */
+    right: 15px;/* La posicion desde la derecha a la izquierda */
+}
+
+.home main section h3{
+    margin: 15px 0;
+}
+
+.home main section p{
+    color :var(--colorGris)
+}
+/* Los elementos en linea no pueden ser separados facilmente, los de bloque si */
+.home main section a{
+    display:inline-block;/* Tiene las propiedades de bloque y a su vez lo puedo manipular con una padding*/
+    margin: 20px 0 0;
+    background-color: var(--colorGris);
+    padding: 8px;
+    color: var(--colorBlanco);
+}
+
+.home main section .amplear{
+    display: block;/* caracteristicas de bloque ya que la etiqueta a es de linea */
+    text-align: center;/* centra el texto */
+    position: absolute;
+    top: 20%;
+    width: 100%;/* Para que la barra ocupe el 100% de la foto */
+    background-color:var(--colorTransparente);/* Color mas transparente */
+    font-weight: bold;
+}
