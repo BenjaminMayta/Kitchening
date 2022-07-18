@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;/* Usa el total de la pantalla ,te suma todos los bordes y tiene los pixeles que permiten */
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color:var(--colorNegro);
+}
+
+.home{
+    background-image: url('../img/bg-body.png');
+}

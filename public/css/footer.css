@@ -1,0 +1,13 @@
+footer{
+    text-align: center;
+}
+
+.home footer ul li{
+    background-color:var(--colorGris);/* Se producen barras de color gris en las li */
+    padding: 10px;/* Aumento su tamaño */
+    margin: 2px 0; /* Me separo 2px de arriba y abajo */
+}
+
+.home footer ul li a{
+    color: var(--colorBlanco);/* Se usa color para la tipografia asi como para los iconos */
+}
