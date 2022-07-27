@@ -18,4 +18,5 @@ a{
     background-image: url('../img/bg-body.png');
     width: 94%;/* Para que el body ocupe el 94% de la pantalla */
     margin: 0 auto;/* Para centrar el body de izquierda a derecha */
+    
 }

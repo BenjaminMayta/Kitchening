@@ -4,13 +4,17 @@
 
 .home main section article{
     margin: 20px 0;
-    position: relative;/* delimita mi caja para que el absoluto no se valla al body */
+    
 }
-
+.home main section .image{
+    position: relative;/* delimita mi caja para que el absoluto no se valla al body */
+        
+}
+    
 .home main section .producto{
     width: 100%;/* Para que la imagen ocupe el 100% de la pantalla */
 }
-
+    
 .home main section .etiqueta{
     right: 15px;/* Con esto reduzco el tamaño de la foto de free new y off */
     position: absolute;/* Para poder superponerme en otra imagen o en todo */
@@ -38,8 +42,41 @@
     display: block;/* caracteristicas de bloque ya que la etiqueta a es de linea */
     text-align: center;/* centra el texto */
     position: absolute;
-    top: 20%;
+    top: 40%;
+    margin: 0;
     width: 100%;/* Para que la barra ocupe el 100% de la foto */
     background-color:var(--colorTransparente);/* Color mas transparente */
     font-weight: bold;
+}
+
+/* Tablet */
+
+@media(min-width:460px){
+    .home main .banner{
+        display: block;
+    }
+    
+    .home main .banner img {
+        width: 100%;
+    }
+
+    .home main section{
+        display: flex;/* Me aparece todos los articul€os unoa a lado del otro */
+        flex-wrap: wrap;/* respeta el tamanio que le estamos dando a nuestro articulo */
+        justify-content:space-between;
+    }
+
+    .home main section article{
+        width: 48%;
+    }
+}
+
+@media(min-width:760px){
+    .home{
+        max-width: 1300px;/* El home tiene crecimiento maximo de 1300px */
+    }
+    
+    .home main section article{
+        width: 32%;
+    }
 }
